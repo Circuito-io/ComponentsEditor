@@ -45,10 +45,6 @@
           "name": "DCMotor_1",
           "part": "DCMotor"
         },
-        {
-          "name": "DCMotor_2",
-          "part": "DCMotor"
-        }
       ],
       "wires": [
         {
@@ -58,14 +54,6 @@
         {
           "from": "DCMDriverL298_1.OUT2",
           "to": "DCMotor_1.Coil1"
-        },
-        {
-          "from": "DCMDriverL298_1.OUT3",
-          "to": "DCMotor_2.Coil2"
-        },
-        {
-          "from": "DCMDriverL298_1.OUT4",
-          "to": "DCMotor_2.Coil1"
         },
         {
           "from": "DCMDriverL298_1.INT1",
